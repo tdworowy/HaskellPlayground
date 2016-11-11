@@ -1,4 +1,4 @@
-module Main where
+module Values where
 
 main = do
     putStrLn $ "haskell " ++ "lang"
@@ -8,7 +8,3 @@ main = do
     print $ True && False
     print $ True || False
     print $ not True
-
-    putStrLn "Hello, what's your name?"
-    name <- getLine
-    putStrLn ("Hey " ++ name ++ ", you rock!")
