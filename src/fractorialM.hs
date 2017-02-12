@@ -1,10 +1,10 @@
 
-let fractorial :: int -> int
-    fractorial 0 =1
-    fractorial n = n *fractorial
-
 main = do
-    fractorial 5
+    let fractorial :: Int -> Int
+        fractorial 0 = 1
+        fractorial n = n * fractorial (n -1)
+    print (fractorial 5)
+    print (fractorial 120)
+    print (fractorial 1)
+    print (fractorial 17)
 
-
-//TODO mame in works
