@@ -1,0 +1,1 @@
+for /r %F in (*.hs) do D:\ormolu\ormolu.exe --mode inplace "%F"

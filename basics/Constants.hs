@@ -4,10 +4,10 @@ s :: String
 s = "constant"
 
 main = do
-    putStrLn s
+  putStrLn s
 
-    let n = 500000000
-    let d = 3e20 / n
+  let n = 500000000
+  let d = 3e20 / n
 
-    print d
-    print $ sin n
+  print d
+  print $ sin n
